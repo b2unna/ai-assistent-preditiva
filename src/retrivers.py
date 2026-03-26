@@ -40,9 +40,9 @@ def load_excel_vectorstore(filepath: str, save_path: str):
     
     return retriver_tickets
 
-retriver_perguntas_frequentes = load_pdf_vectorstore("Perguntas Frequentes.pdf", "vectorstore_perguntas_frequentes")
-retriver_manual_tecnico = load_pdf_vectorstore("Manual Tecnico de Produtos.pdf", "vectorstore_manual_tecnico_produtos")
-retriver_politicas_procedimentos = load_pdf_vectorstore("Politicas e Procedimentos.pdf", "vectorstore_politica_procedimentos")   
+retriever_perguntas_frequentes = load_pdf_vectorstore("Perguntas Frequentes.pdf", "vectorstore_perguntas_frequentes")
+retriever_manual_tecnico = load_pdf_vectorstore("Manual Tecnico de Produtos.pdf", "vectorstore_manual_tecnico_produtos")
+retriever_politicas_procedimentos = load_pdf_vectorstore("Politicas e Procedimentos.pdf", "vectorstore_politica_procedimentos")   
 
-retriver_tickets = load_excel_vectorstore("Tickets.xlsx", "vectorstore_tickets")
+retriever_tickets = load_excel_vectorstore("Tickets.xlsx", "vectorstore_tickets")
 
